@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\2_PrimeChecker\bin\Debug\2_PrimeChecker.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\2_PrimeChecker\bin\Debug\2_PrimeChecker.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\2_PrimeChecker\bin\Debug\2_PrimeChecker.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\2_PrimeChecker\obj\Debug\2_PrimeChecker.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\2_PrimeChecker\obj\Debug\2_PrimeChecker.pdb

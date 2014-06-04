@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\6_LongestAreaInArray\bin\Debug\6_LongestAreaInArray.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\6_LongestAreaInArray\bin\Debug\6_LongestAreaInArray.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\6_LongestAreaInArray\bin\Debug\6_LongestAreaInArray.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\6_LongestAreaInArray\obj\Debug\6_LongestAreaInArray.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\6_LongestAreaInArray\obj\Debug\6_LongestAreaInArray.pdb

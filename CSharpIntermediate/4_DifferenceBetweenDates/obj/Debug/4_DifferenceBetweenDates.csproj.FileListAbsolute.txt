@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\4_DifferenceBetweenDates\bin\Debug\4_DifferenceBetweenDates.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\4_DifferenceBetweenDates\bin\Debug\4_DifferenceBetweenDates.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\4_DifferenceBetweenDates\bin\Debug\4_DifferenceBetweenDates.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\4_DifferenceBetweenDates\obj\Debug\4_DifferenceBetweenDates.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\4_DifferenceBetweenDates\obj\Debug\4_DifferenceBetweenDates.pdb

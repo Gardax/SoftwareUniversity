@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\11_CountOfLetters\bin\Debug\11_CountOfLetters.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\11_CountOfLetters\bin\Debug\11_CountOfLetters.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\11_CountOfLetters\bin\Debug\11_CountOfLetters.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\11_CountOfLetters\obj\Debug\11_CountOfLetters.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\11_CountOfLetters\obj\Debug\11_CountOfLetters.pdb

@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\5_SortingNumbers\bin\Debug\5_SortingNumbers.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\5_SortingNumbers\bin\Debug\5_SortingNumbers.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\5_SortingNumbers\bin\Debug\5_SortingNumbers.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\5_SortingNumbers\obj\Debug\5_SortingNumbers.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\5_SortingNumbers\obj\Debug\5_SortingNumbers.pdb

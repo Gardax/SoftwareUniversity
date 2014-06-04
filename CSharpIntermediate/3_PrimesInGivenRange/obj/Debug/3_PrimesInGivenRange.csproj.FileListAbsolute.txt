@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\3_PrimesInGivenRange\bin\Debug\3_PrimesInGivenRange.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\3_PrimesInGivenRange\bin\Debug\3_PrimesInGivenRange.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\3_PrimesInGivenRange\bin\Debug\3_PrimesInGivenRange.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\3_PrimesInGivenRange\obj\Debug\3_PrimesInGivenRange.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\3_PrimesInGivenRange\obj\Debug\3_PrimesInGivenRange.pdb

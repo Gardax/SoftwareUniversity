@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\14_LongestWordInText\bin\Debug\14_LongestWordInText.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\14_LongestWordInText\bin\Debug\14_LongestWordInText.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\14_LongestWordInText\bin\Debug\14_LongestWordInText.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\14_LongestWordInText\obj\Debug\14_LongestWordInText.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\14_LongestWordInText\obj\Debug\14_LongestWordInText.pdb

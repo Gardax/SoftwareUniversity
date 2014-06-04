@@ -1,0 +1,39 @@
+﻿body {
+    background-image: url('back.jpg');
+    background-size: 800px 500px;
+    background-repeat: no-repeat;
+    padding: 00px 0px 20px 20px;
+    color: white;
+    font-size: 1.1em;
+    font-family: Calibri;
+}
+
+h1 {
+    color: #e2c15a;
+}
+
+.tag {
+    color: #e2c15a;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+li {
+   list-style: none;
+   margin-top: 10px;
+}
+
+li:before {
+    content: "■";
+    color: #e2c15a;
+    margin-right: 10px;
+}
+
+.code {
+    border: 1px solid white;
+    width: 600px;
+    padding: 5px;
+    background-color:rgba(255,255,255,0.1);
+    margin-top: 10px;
+    margin-left: 30px;
+}

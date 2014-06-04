@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\9_RemoveNames\bin\Debug\9_RemoveNames.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\9_RemoveNames\bin\Debug\9_RemoveNames.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\9_RemoveNames\bin\Debug\9_RemoveNames.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\9_RemoveNames\obj\Debug\9_RemoveNames.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\9_RemoveNames\obj\Debug\9_RemoveNames.pdb

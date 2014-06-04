@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\16_CountingWordInText\bin\Debug\16_CountingWordInText.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\16_CountingWordInText\bin\Debug\16_CountingWordInText.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\16_CountingWordInText\bin\Debug\16_CountingWordInText.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\16_CountingWordInText\obj\Debug\16_CountingWordInText.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\16_CountingWordInText\obj\Debug\16_CountingWordInText.pdb

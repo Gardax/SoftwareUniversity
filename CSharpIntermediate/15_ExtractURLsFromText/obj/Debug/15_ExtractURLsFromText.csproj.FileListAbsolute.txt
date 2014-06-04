@@ -1,0 +1,5 @@
+C:\Users\Georgi\Desktop\CSharpIntermediate\15_ExtractURLsFromText\bin\Debug\15_ExtractURLsFromText.exe.config
+C:\Users\Georgi\Desktop\CSharpIntermediate\15_ExtractURLsFromText\bin\Debug\15_ExtractURLsFromText.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\15_ExtractURLsFromText\bin\Debug\15_ExtractURLsFromText.pdb
+C:\Users\Georgi\Desktop\CSharpIntermediate\15_ExtractURLsFromText\obj\Debug\15_ExtractURLsFromText.exe
+C:\Users\Georgi\Desktop\CSharpIntermediate\15_ExtractURLsFromText\obj\Debug\15_ExtractURLsFromText.pdb
