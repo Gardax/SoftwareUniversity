@@ -1,0 +1,50 @@
+﻿#wrapper {
+    width: 940px;
+    background-color: #FFC6D1;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+#first {
+    float: left;
+    width: 220px;
+    margin-top: -15px;
+    
+}
+
+#second {
+    float: left;
+    width: 320px;
+    
+}
+
+#third{
+    float: left;
+    width: 400px;
+}
+
+#blackDiv {
+    height: 115px;
+    background-color: black;
+    width: 300px;
+    padding: 50px 0px 0px 0px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+figure {
+    margin-left:0px;
+}
+
+meter {
+    position:relative;
+    width: 150px;
+    top: -10px;
+}

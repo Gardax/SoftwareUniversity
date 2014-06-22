@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flight Order</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>FLIGHT ORDER</h1>
+        <div id="left">
+            <label for="fromCity">From</label><br />
+            <select id="fromCity">
+                <option selected>enter a city</option>
+                <option>Sofia</option>
+                <option>Varna</option>
+                <option>Burgas</option>
+                <option>Pleven</option>
+            </select>
+            <br />
+            <br />
+            <label for="departuteDate">Deprtute Date</label> <br />
+            <input type="date" id="departuteDate"/>
+            <label for="returnDate">Return Date</label> <br />
+            <input type="date" id="returnDate" />
+
+            <div class="numbersDiv">
+                12+<br />
+                <input type="number" class="numbersInput" min="12" />
+            </div>
+            <div class="numbersDiv">
+                2-12<br />
+                <input type="number" class="numbersInput"  min="2" max="12" />
+            </div>
+            <div class="numbersDiv">
+                0-2<br />
+                <input type="number" class="numbersInput" min="0" max="2" />
+            </div>
+
+        </div>
+
+        <div id="right">
+            <label for="toCity">To</label><br />
+            <select id="toCity">
+                <option selected>enter a city</option>
+                <option>Sofia</option>
+                <option>Varna</option>
+                <option>Burgas</option>
+                <option>Pleven</option>
+            </select>
+            <input type="checkbox" id="directs" style="width:15px;"/> <label for="directs">Prefer directs</label><br />
+            Time Interval <br />
+            <input type="time" class="timeInput"/> <input type="time" class="timeInput" />
+
+            Time Interval <br />
+            <input type="time" class="timeInput" /> <input type="time" class="timeInput" />
+
+            <label for="chooseClass">Choose Class</label><br />
+            <select id="chooseClass">
+                <option selected>Economy</option>
+                <option>Blalbalba</option>
+                <option>balbla</option>
+                <option>lbalbala</option>
+                <option>Blalalala</option>
+            </select>
+
+            <input type="button" value="Search" id="btnSearch"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

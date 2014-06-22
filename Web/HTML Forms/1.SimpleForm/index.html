@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Enter the system</h1>
+        <span class="message">It is necessary to login in Your account in order to sign in for a course.</span>
+        <br />
+        <br />
+        <div id="register">
+            <span class="title">ARE YOU NEW? <span class="blueColor"> REGISTER</span></span>
+            <input type="text" placeholder="User name" class="field"/>
+            <input type="email" placeholder="Email" class="field" />
+            <input type="password" placeholder="Password" class="field" />
+            <input type="password" placeholder="Confirm password" class="field" />
+            <input type="button" id="btnRegister" value="Register" />
+        </div>
+
+        <div id="login">
+            <span class="title">ALEREADY A STUDENT? LOGIN</span>
+            <input type="text" placeholder="User name" class="field" />
+            <input type="password" placeholder="Password" class="field" />
+            <span id="rememberMe">
+                <span style="font-size: 0.8em;"><input id="rememberMeInput" type="checkbox" /> <label for="rememberMeInput"> Remember me?</label></span>
+                <input type="button" id="btnLogin" value="Login" />
+            </span>
+            <div class="clear"></div>
+            <span id="forgotPassword"><a href="#">Forgot Password</a></span>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

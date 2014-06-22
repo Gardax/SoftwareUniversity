@@ -1,0 +1,64 @@
+﻿.singleLaptop {
+    margin-bottom: 20px;
+    width: 150px;
+    float: left;
+    color: #203D58;
+    border: 1px solid #E2F3FF;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align:center;
+}
+
+.spec {
+    text-align: left;
+}
+
+.laptopsContainer {
+    width: 520px;
+}
+
+h1 {
+    color:#203D58;
+
+}
+
+.title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.price {
+    float: right;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #2D445C;
+    padding: 5px;
+    color: white;
+    margin-right: -5px;
+    margin-bottom: -5px;
+}
+
+#left {
+    float:left;
+}
+
+#right {
+    width: 210px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    color:#203D58;
+}
+
+input {
+    width: 200px;
+}
+
+.minValue {
+    font-size: 0.8em;
+}
+
+.maxValue {
+    margin-left: 140px;
+    font-size: 0.8em;
+}

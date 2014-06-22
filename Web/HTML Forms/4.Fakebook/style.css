@@ -1,0 +1,95 @@
+﻿#wrapper {
+    color: white;
+    width: 710px;
+    background-color:#395A9D;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.registered {
+    margin-left: -10px;
+    font-size: 15px;
+}
+
+#message {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+#left {
+    width: 250px;
+    border-radius: 10px;
+    float: left;
+    height: 200px;
+}
+
+#right {
+   width: 370px;
+   border-radius: 10px;
+   position:relative;
+   left: 30px;
+   height: 200px;
+}
+
+#btnClear {
+    width: 280px;
+    height: 35px;
+    color: #395A9D;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#btnRegister {
+    width: 400px;
+    height: 35px;
+    color: #395A9D;
+    border-radius: 10px;
+    margin-left: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 3px;
+    border: 0px;
+    margin-top: 5px;
+}
+
+.resizedInput {
+    height: 21px;
+    width: 115px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+legend {
+    text-align:center;
+}
+
+.clear {
+    clear:both;
+}
+
+#moreInfo {
+    width: 360px;
+    height: 50px;
+}
+
+.smallInput {
+    width: 60px;
+    height: 21px;
+    margin-right: 5px;
+}

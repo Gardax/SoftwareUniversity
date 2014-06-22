@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fakebook</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>fakebook <span class="registered">&reg;</span></h1>
+        <h2>Registration</h2>
+        <div id="message">It is safe and it will always be!</div>
+
+        <form>
+            <fieldset id="left">
+                <legend>Non-Important Information</legend>
+                <input type="text" placeholder="First name" class="resizedInput" />
+                <input type="text" placeholder="Last name" class="resizedInput" />
+                <input type="email" placeholder="Your Email" class="resizedInput" />
+                <input type="tel" placeholder="Phone Number" pattern="\+359\d{3}\ \d{3}\ \d{3}" class="resizedInput" value="+359xxx xxx xxx" />
+                <input type="password" placeholder="Your Password" class="resizedInput" />
+                <input type="url" placeholder="Website" class="resizedInput" />
+                <label for="birthday">Birthday</label><br />
+                <input type="date" id="birthday" style="width: 180px;" /> <br />
+                <input type="radio" name="sex" id="male" /><label for="male">Male</label>
+                <input type="radio" name="sex" id="female" /><label for="female">Female</label>
+                <input type="radio" name="sex" id="other" /><label for="other">Other</label>
+
+            </fieldset>
+
+            <fieldset id="right">
+                <legend>Important Information*required</legend>
+                <select class="resizedInput" required>
+                    <option selected>Country</option>
+                    <option>Bulgaria</option>
+                    <option>Germany</option>
+                </select>
+                <input type="text" placeholder="Village" class="resizedInput" required />
+                <input type="text" placeholder="District" class="resizedInput" required/>
+                <input type="text" placeholder="Street" class="resizedInput" required />
+                <input type="number" placeholder="Nr" class="smallInput" required />
+                <input type="number" placeholder="Floor" class="smallInput" required />
+                <input type="number" placeholder="Ap Nr" class="smallInput" required/><br />
+                <label>Door Color</label><br />
+                <input type="color" class="resizedInput" required/>
+                <input type="text" placeholder="Water meter Nr" class="resizedInput" required/>
+
+                <select class="resizedInput" required>
+                    <option selected>Aunt panties Size</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+                More personal information<br />
+                <textarea placeholder="Give Us More Information!!!" id="moreInfo" required></textarea>
+            </fieldset>
+            <div class="clear"></div>
+            <input type="reset" value="Clear Form" id="btnClear"/>
+            <input type="submit" value="Register" id="btnRegister" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+#wrapper {
+   padding: 10px;
+   width: 940px;
+   background-color: #00923E; 
+   font-family: 'Segoe UI';
+}
+
+table {
+     border-color: black;
+     border-radius: 15px 15px 15px 15px;
+}
+table thead {
+    background-color: #F8C711;
+    font-size: 1.3em;   
+}
+
+table th, td {
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+    table thead{
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    table tbody tr:nth-child(2n+1) {
+        background-color: white;
+    }
+
+    table tbody tr:nth-child(2n) {
+        background-color: #C8C8C8;
+    }
+
+input {
+    width: 30px;
+}
+
+.fullTime {
+    color: red;
+    background-color: #DCDCDC;
+}
+
+.active {
+    color: green;
+}
+
+.roundedCornerTopLeft {
+   border-top-left-radius: 15px;
+}
+
+.roundedCornerTopRight {
+   border-top-right-radius: 15px;
+}
+
+.roundedCornerBottomLeft {
+   border-bottom-left-radius: 15px;
+}
+
+.roundedCornerBottomRight {
+   border-bottom-right-radius: 15px;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+#brazilFlag {
+    background-image:url("images/brasil.PNG");
+    width: 30px;
+    height: 21px;
+    float: right;
+    margin-left: 5px;
+}
+
+#spainFlag {
+    background-image:url("images/SpainFlag.PNG");
+    width: 30px;
+    height: 21px;
+    float: right;
+    margin-left: 5px;
+}
+
+#italyFlag {
+    background-image:url("images/ItalyFlag.PNG");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 21px;
+    float: right;
+    margin-left: 5px;
+}
+
+#argentinaFlag {
+    background-image:url("images/ArgentinaFlag.PNG");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 21px;
+    float: right;
+    margin-left: 5px;
+}
+
+#germanyFlag {
+    background-image:url("images/GermanyFlag.PNG");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 21px;
+    float: right;
+    margin-left: 5px;
+}
+
+#mexicoFlag {
+    background-image:url("images/mexico.PNG");
+    width: 30px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+}
+
+#netherlandsFlag {
+    background-image:url("images/NetherlandsFlag.PNG");
+    width: 30px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+}
+
+#englandFlag {
+    background-image:url("images/EnglandFlag.PNG");
+    width: 30px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+}
+
+#bosniaFlag {
+    background-image:url("images/BosnaFlag.PNG");
+    width: 30px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+}
+
+#portugalFlag {
+    background-image:url("images/PortugalFlag.PNG");
+    width: 30px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+}
+
+.redButton {
+     background-image:url("images/red-bet.png");
+    width: 40px;
+    height: 40px;
+}
+
+.greenButton {
+     background-image:url("images/green-bet.png");
+    width: 40px;
+    height: 40px;
+}

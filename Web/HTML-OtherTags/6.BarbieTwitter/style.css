@@ -1,0 +1,279 @@
+﻿body {
+    background-image: url("images/background.jpg");
+    margin: 0px 0px 0px 0px;
+}
+
+#wrapper {
+    width: 95%;
+    min-width: 1200px;
+    margin: 0px auto;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    margin-top: -10px;
+}
+
+    nav table {
+    }
+
+    nav ul {
+        float: left;
+        width: 450px;
+        margin-left: -40px;
+        margin-bottom: 0px;
+    }
+
+    nav li {
+        float: left;
+        margin-left: 20px;
+        list-style-type: none;
+        color: #827082;
+    }
+
+        nav li:hover {
+            border-bottom: 5px solid #0081B1;
+        }
+
+    nav #searchInput {
+        background-color: #A4ADB4;
+        border: 0px;
+        border-radius: 15px 0px 0px 15px;
+        height: 33px;
+        color: white;
+        position: relative;
+        top: -18px;
+        left: 14px;
+    }
+
+    nav #searchButton {
+        background-color: transparent;
+        border: 0px;
+    }
+
+    nav #logo {
+        float: left;
+        position: relative;
+        left: 12%;
+        top: 20px;
+    }
+
+#rightItems {
+    width: 400px;
+    float: right;
+    margin-top: 10px;
+}
+
+#left {
+    width: 20%;
+    float: left;
+    margin-top: 2%;
+}
+
+    #left #top {
+        background-color: #0083B3;
+        padding-top: 100px;
+        border-radius: 8px;
+    }
+
+        #left #top #profilePicture {
+            float: left;
+            position: relative;
+            top: -40px;
+        }
+
+        #left #top #name {
+            position: relative;
+            float: left;
+            left: 10px;
+            //width: 150px;
+        }
+
+        #left #top #profileInfo #profileStats {
+            font-size: 0.7em;
+            position: relative;
+            float: left;
+            left: -10px;
+            top: -15px;
+            color: #827082;
+        }
+
+        #left #top #profileInfo .item {
+            margin-left: 15px;
+            float: left;
+        }
+
+        #left #top #profileInfo .statNum {
+            font-size: 1.6em;
+            color: #478DB8;
+            font-weight: bold;
+        }
+
+        #left #top #newTweet {
+            background-color: #F1F9FE;
+            height: 50px;
+            border-radius: 0px 0px 8px 8px;
+        }
+
+            #left #top #newTweet input {
+                border: 1px solid #D1ECF8;
+                padding: 5px;
+                margin-top: 10px;
+                margin-left: 5%;
+                width: 85%;
+            }
+
+    #left #profileInfo {
+        background-color: white;
+        padding: 10px;
+        border-bottom: 2px solid #D1ECF8;
+    }
+
+    #left li {
+        list-style-type: none;
+    }
+
+        #left li a {
+            color: #4894BF;
+            text-decoration: none;
+        }
+
+    #left #bottom {
+        background-color: white;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 8px;
+        color: #4894BF;
+    }
+
+        #left #bottom #trendsList {
+            margin-left: -35px;
+        }
+
+main {
+    width: 52%;
+    float: left;
+    background-color: white;
+    margin: 2%;
+    border-radius: 8px;
+}
+
+    main .header {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+
+    main section {
+        margin-top: 30px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    main article {
+        width: 100%;
+        border-top: 1px solid #d8d8d8;
+        margin-top: 10px;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+        main article .image {
+            float: left;
+            width: 70px;
+        }
+
+        main article .tweetInfo {
+            float: left;
+            width: 85%;
+        }
+
+        main article .buttons {
+            position: relative;
+            float: right;
+            color: #EBF2F8;
+        }
+
+            main article .buttons span {
+                margin-left: 10px;
+            }
+
+        main article .buttonsContainer {
+            margin-top: 5px;
+            margin-left: -5px;
+            width: 100%;
+        }
+
+            main article .buttonsContainer .grey {
+                margin-left: 10px;
+            }
+
+.header {
+    color: #86859B;
+    font-size: 1.8em;
+}
+
+.grey {
+    color: #90A0AA;
+}
+
+.blueItems {
+    color: #4894BF;
+}
+
+#right {
+    width: 24%;
+    float: right;
+    margin-top: 2%;
+}
+
+    #right #top {
+        background-color: white;
+        padding: 10px;
+        padding-bottom: 0px;
+        border-radius: 8px;
+    }
+
+    #right #findPeople {
+        width: 100%;
+        padding: 10px;
+        border-top: 1px solid #d8d8d8;
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+
+    #right .profile {
+        margin-top: 10px;
+    }
+
+    #right button {
+        background: none;
+        border: 0px;
+        margin-top: -10px;
+    }
+
+
+    #right #findPeople .blueItems {
+        position: relative;
+        top: -15px;
+    }
+
+.clear {
+    clear: both;
+}
+
+.info, .image {
+    float: left;
+}
+
+footer {
+    margin-top: 20px;
+    color: #4894BF;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}

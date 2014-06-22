@@ -1,0 +1,94 @@
+﻿body
+{
+}
+
+#wrapper {
+    width:680px;
+    padding: 20px;
+    background-color: #E6E6E6;
+    color: #b8b8b8;
+}
+
+#login {
+    width:300px;
+    float:left;
+    background-color: #244668;
+    color: white;
+    padding: 10px;
+    height: 227px;
+}
+
+#register {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+    #register .title {
+      color:#666666;
+    }
+.clear {
+    clear:both;
+}
+
+h1 {
+    color: #244668;
+}
+
+.blueColor {
+    color: #244668;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.field{
+    width: 285px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#btnRegister {
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid #224567;
+    color: #224567;
+    float: right;
+}
+
+#btnLogin {
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid yellow;
+    color: white;
+    float: right;
+    background: transparent;
+}
+
+#forgotPassword {
+    float:right;
+    color: white;
+    margin-top: 10px;
+    font-size: 0.8em;
+    text-decoration:underline;
+}
+
+    #forgotPassword a {
+        text-decoration:none;
+        color:white;
+        
+    }
+#rememberMe {
+    position:relative;
+    top: 10px;
+}
+
+.message {
+    color:#848484;
+}
