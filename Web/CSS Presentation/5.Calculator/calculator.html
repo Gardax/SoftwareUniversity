@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculator</title>
-        <link rel="stylesheet" type="text/css" href="calculator.css" />
-    </head>
-    
-    <body>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+</head>
+
+<body>
+    <div id="window">
+        <div><img src="icon.png" /> Calculator <span id="windowsButtons"><img src="buttons.png" /></span></div>
         <div id="mainDiv">
             <div id="menu">
                 <ul>
@@ -61,10 +63,10 @@
                 <table id="buttons">
                     <tr>
                         <td rowspan="3" class="radioButtons">
-                            <input type="radio" name="numSystem" value="Hex">Hex</input><br/>
-                            <input type="radio" name="numSystem" value="Dec">Dec</input><br/>
-                            <input type="radio" name="numSystem" value="Oct">Oct</input><br/>
-                            <input type="radio" name="numSystem" value="Bin">Bin</input><br/>
+                            <input type="radio" name="numSystem" value="Hex">Hex</input><br />
+                            <input type="radio" name="numSystem" value="Dec">Dec</input><br />
+                            <input type="radio" name="numSystem" value="Oct">Oct</input><br />
+                            <input type="radio" name="numSystem" value="Bin">Bin</input><br />
                         </td>
                         <td></td>
                         <td class="bitwise">Mod</td>
@@ -97,10 +99,10 @@
                     </tr>
                     <tr>
                         <td rowspan="3" class="radioButtons">
-                            <input type="radio" name="unit" value="Qword">Qword</input><br/>
-                            <input type="radio" name="unit" value="Dword">Dword</input><br/>
-                            <input type="radio" name="unit" value="Word">Word</input><br/>
-                            <input type="radio" name="unit" value="Byte">Byte</input><br/>
+                            <input type="radio" name="unit" value="Qword">Qword</input><br />
+                            <input type="radio" name="unit" value="Dword">Dword</input><br />
+                            <input type="radio" name="unit" value="Word">Word</input><br />
+                            <input type="radio" name="unit" value="Byte">Byte</input><br />
                         </td>
                         <td class="button">Or</td>
                         <td class="bitwise">Xor</td>
@@ -132,5 +134,6 @@
                 </table>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
