@@ -1,0 +1,165 @@
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #6698FF;
+}
+
+#wrapper{
+    width: 70%;
+    margin: 0px auto;
+    max-width: 900px;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header nav ul{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid;
+}
+
+header nav ul li a{
+    color: #000000;
+}
+
+header nav:before {
+    height: 2px;
+    background: #000;
+    content: "";
+    display: block;
+    position: relative;
+    top: 13px;
+    z-index: -1;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+
+section article{
+    background-color: #E0EAFE;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+aside{
+    width: 28%;
+    float: right;
+    background-color: #E0EAFE;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+aside div ul{
+    padding: 0px;
+    margin: 0px;
+}
+aside div ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+aside div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #E0EAFE;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+footer h2{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 780px) and (max-width: 960px) {
+    #wrapper{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 780px) {
+    #wrapper{
+        width: 100%;
+    }
+
+    section, aside{
+        width: 100%;
+    }
+
+
+    aside div ul li{
+        width: 24%;
+        float: left;
+        text-align: center;
+
+    }
+
+    footer{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #wrapper{
+        width: 100%;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    section, aside{
+        width: 100%;
+    }
+
+    aside{
+        text-align: center;
+    }
+
+    header nav ul li{
+        float: none;
+        text-align: center;
+        display: block;
+        width: 90%;
+    }
+
+    footer{
+        margin-top: 10px;
+    }
+
+    header img{
+        display: block;
+        margin: 0px auto;
+    }
+
+    header nav ul{
+        text-align: center;
+        margin-right: 0px auto;
+    }
+}

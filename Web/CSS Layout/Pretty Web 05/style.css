@@ -1,0 +1,205 @@
+body{
+    background-color: black;
+    font-family: Arial;
+}
+.wrapper{
+    margin: 5px auto;
+    width:90%;
+    max-width: 1600px;
+    background-color: white;
+}
+header{
+
+}
+
+header img{
+    width: 100%;
+}
+
+#logo{
+    position: relative;
+    text-align: right;
+    top: -60px;
+    right: 30px;
+}
+
+#logo h1{
+    color: white;
+}
+
+nav{
+    background-color: #E3E3E3;
+    margin-top: -64px;
+}
+
+nav:after{
+    clear: both;
+    display: block;
+    content: "";
+    height: 0px;
+}
+
+nav ul{
+    margin-left: 0px; 
+    padding: 0px;
+}
+
+nav ul li{
+    background-color: #E3E3E3;
+    border-right:2px solid #F4F4F4;
+    display: inline-block;
+    color: #929191;
+    text-align: center;
+    float: left;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color: #B8B8B8;
+    color: white;
+}
+
+main{
+    padding: 20px 30px 20px 30px;
+    float: left;
+    width: 60%;
+}
+.wrapper:after{
+    clear:both;
+    display: block;
+    height: 0px;
+    content: "";
+}
+
+section{ 
+    border: 2px solid #E3E3E3;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+h1{
+    color: #7CB908;
+    margin-top: 0px;
+}
+
+section article{
+    margin-bottom: 20px;
+}
+
+article:after{
+    clear:both;
+    display: block;
+    height: 0px;
+    content: "";
+}
+article img{
+    width: 25%;
+    float: left;
+}
+article .textNearPic{
+    width: 70%;
+    margin-left: 2%;
+    font-size: 0.9em;
+    float: left;
+}
+
+aside{
+    width: 27%;
+    float: left;
+    padding: 0px 30px 20px 30px;
+}
+aside section{
+    margin-top:20px;
+    margin-bottom: 0px;
+    width: 90%;
+    border: 2px solid #E3E3E3;
+    border-radius: 15px;
+}
+footer{
+    float: left;
+    background-color: #8EC052;
+    width: 70%;
+    height: 50px;
+    padding: 30px 15% 30px 15%;
+    margin-top: 20px;
+}
+
+summary{
+    color: #92CA2B;
+}
+
+a{
+    color: black;
+}
+
+@media only screen and (max-width: 1100px){
+    main{
+        //float: none;
+        width: 90%;
+    }
+    
+    aside{
+        //float: none;
+        width: 90%;
+        display: block;
+    }
+    
+    aside section{
+        width: 93%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    
+    footer{
+        /float: none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+    }
+    nav ul li{
+        float: none;
+        dispay: block;
+        padding: 5px 0px 0px 0px;
+        border-bottom: 1px solid white;
+        margin: 5px 0px 0px 0px;
+        width: 100%;
+        font-size: 1.3em;
+    }
+   
+    main, aside{
+       padding: 0px;
+       width: 100%;
+    }
+    
+    main section{
+        width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    
+    aside section{
+       width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    
+    #logo h1{
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #logo h1{
+        font-size: 1.0em;
+    }
+}

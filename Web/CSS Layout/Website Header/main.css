@@ -1,0 +1,91 @@
+header{
+    width: 100%;
+    background-color: #234465;
+    min-width: 1250px;
+    color: white;
+}
+
+#logo{
+    width: 270px;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#right{
+    width: 900px;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+nav ul li ul{
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    width: 200px;
+}
+
+nav ul li ul li{
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #b8b8b8;
+    background-color: #234465;
+    padding: 5px 0px 5px 10px;
+}
+
+#bellImage{
+    width: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#notifications{
+    margin-right: 20px;
+}
+
+#searchInput{
+    padding: 5px;
+    width: 170px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+}
+
+#searchButton{
+    background-image: url("zoom.png");
+    background-size: 25px 25px; 
+    height: 26px;
+    width: 26px;
+    border: 0px;
+    position: relative;
+    top: 7px;
+    left: -5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.arrow{
+    width: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
